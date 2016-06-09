@@ -1,0 +1,11 @@
+c:\users\sinisa\documents\visual studio 2015\Projects\ProjektniZadatakTVP\ProjektniZadatakTVP\bin\Debug\ProjektniZadatakTVP.exe.config
+c:\users\sinisa\documents\visual studio 2015\Projects\ProjektniZadatakTVP\ProjektniZadatakTVP\bin\Debug\ProjektniZadatakTVP.exe
+c:\users\sinisa\documents\visual studio 2015\Projects\ProjektniZadatakTVP\ProjektniZadatakTVP\bin\Debug\ProjektniZadatakTVP.pdb
+c:\users\sinisa\documents\visual studio 2015\Projects\ProjektniZadatakTVP\ProjektniZadatakTVP\obj\Debug\ProjektniZadatakTVP.csprojResolveAssemblyReference.cache
+c:\users\sinisa\documents\visual studio 2015\Projects\ProjektniZadatakTVP\ProjektniZadatakTVP\obj\Debug\ProjektniZadatakTVP.pnlPrikaz.resources
+c:\users\sinisa\documents\visual studio 2015\Projects\ProjektniZadatakTVP\ProjektniZadatakTVP\obj\Debug\ProjektniZadatakTVP.Forms.FAzuriranje.resources
+c:\users\sinisa\documents\visual studio 2015\Projects\ProjektniZadatakTVP\ProjektniZadatakTVP\obj\Debug\ProjektniZadatakTVP.Properties.Resources.resources
+c:\users\sinisa\documents\visual studio 2015\Projects\ProjektniZadatakTVP\ProjektniZadatakTVP\obj\Debug\ProjektniZadatakTVP.csproj.GenerateResource.Cache
+c:\users\sinisa\documents\visual studio 2015\Projects\ProjektniZadatakTVP\ProjektniZadatakTVP\obj\Debug\ProjektniZadatakTVP.exe
+c:\users\sinisa\documents\visual studio 2015\Projects\ProjektniZadatakTVP\ProjektniZadatakTVP\obj\Debug\ProjektniZadatakTVP.pdb
+C:\Users\Sinisa\Documents\Visual Studio 2015\Projects\ProjektniZadatakTVP\ProjektniZadatakTVP\obj\Debug\ProjektniZadatakTVP.Forms.Slike.resources

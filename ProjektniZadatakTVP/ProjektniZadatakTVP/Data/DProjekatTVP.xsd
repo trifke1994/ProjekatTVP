@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DProjekatTVP" targetNamespace="http://tempuri.org/DProjekatTVP.xsd" xmlns:mstns="http://tempuri.org/DProjekatTVP.xsd" xmlns="http://tempuri.org/DProjekatTVP.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ProjekatTvpConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ProjekatTvpConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ProjektniZadatakTVP.Properties.Settings.GlobalReference.Default.ProjekatTvpConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DProjekatTVP" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DProjekatTVP" msprop:Generator_UserDSName="DProjekatTVP">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Autori" msprop:Generator_TableClassName="AutoriDataTable" msprop:Generator_TableVarName="tableAutori" msprop:Generator_RowChangedName="AutoriRowChanged" msprop:Generator_TablePropName="Autori" msprop:Generator_RowDeletingName="AutoriRowDeleting" msprop:Generator_RowChangingName="AutoriRowChanging" msprop:Generator_RowEvHandlerName="AutoriRowChangeEventHandler" msprop:Generator_RowDeletedName="AutoriRowDeleted" msprop:Generator_RowClassName="AutoriRow" msprop:Generator_UserTableName="Autori" msprop:Generator_RowEvArgName="AutoriRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="ime" msprop:Generator_ColumnVarNameInTable="columnime" msprop:Generator_ColumnPropNameInRow="ime" msprop:Generator_ColumnPropNameInTable="imeColumn" msprop:Generator_UserColumnName="ime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="prezime" msprop:Generator_ColumnVarNameInTable="columnprezime" msprop:Generator_ColumnPropNameInRow="prezime" msprop:Generator_ColumnPropNameInTable="prezimeColumn" msprop:Generator_UserColumnName="prezime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="datum_rodjenja" msprop:Generator_ColumnVarNameInTable="columndatum_rodjenja" msprop:Generator_ColumnPropNameInRow="datum_rodjenja" msprop:Generator_ColumnPropNameInTable="datum_rodjenjaColumn" msprop:Generator_UserColumnName="datum_rodjenja" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Kategorije" msprop:Generator_TableClassName="KategorijeDataTable" msprop:Generator_TableVarName="tableKategorije" msprop:Generator_RowChangedName="KategorijeRowChanged" msprop:Generator_TablePropName="Kategorije" msprop:Generator_RowDeletingName="KategorijeRowDeleting" msprop:Generator_RowChangingName="KategorijeRowChanging" msprop:Generator_RowEvHandlerName="KategorijeRowChangeEventHandler" msprop:Generator_RowDeletedName="KategorijeRowDeleted" msprop:Generator_RowClassName="KategorijeRow" msprop:Generator_UserTableName="Kategorije" msprop:Generator_RowEvArgName="KategorijeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="naziv_kategorije" msprop:Generator_ColumnVarNameInTable="columnnaziv_kategorije" msprop:Generator_ColumnPropNameInRow="naziv_kategorije" msprop:Generator_ColumnPropNameInTable="naziv_kategorijeColumn" msprop:Generator_UserColumnName="naziv_kategorije" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Ocene" msprop:Generator_TableClassName="OceneDataTable" msprop:Generator_TableVarName="tableOcene" msprop:Generator_RowChangedName="OceneRowChanged" msprop:Generator_TablePropName="Ocene" msprop:Generator_RowDeletingName="OceneRowDeleting" msprop:Generator_RowChangingName="OceneRowChanging" msprop:Generator_RowEvHandlerName="OceneRowChangeEventHandler" msprop:Generator_RowDeletedName="OceneRowDeleted" msprop:Generator_RowClassName="OceneRow" msprop:Generator_UserTableName="Ocene" msprop:Generator_RowEvArgName="OceneRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="id_slike" msprop:Generator_ColumnVarNameInTable="columnid_slike" msprop:Generator_ColumnPropNameInRow="id_slike" msprop:Generator_ColumnPropNameInTable="id_slikeColumn" msprop:Generator_UserColumnName="id_slike" type="xs:int" />
+              <xs:element name="ocena" msprop:Generator_ColumnVarNameInTable="columnocena" msprop:Generator_ColumnPropNameInRow="ocena" msprop:Generator_ColumnPropNameInTable="ocenaColumn" msprop:Generator_UserColumnName="ocena" type="xs:int" minOccurs="0" />
+              <xs:element name="datum" msprop:Generator_ColumnVarNameInTable="columndatum" msprop:Generator_ColumnPropNameInRow="datum" msprop:Generator_ColumnPropNameInTable="datumColumn" msprop:Generator_UserColumnName="datum" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Slike" msprop:Generator_TableClassName="SlikeDataTable" msprop:Generator_TableVarName="tableSlike" msprop:Generator_RowChangedName="SlikeRowChanged" msprop:Generator_TablePropName="Slike" msprop:Generator_RowDeletingName="SlikeRowDeleting" msprop:Generator_RowChangingName="SlikeRowChanging" msprop:Generator_RowEvHandlerName="SlikeRowChangeEventHandler" msprop:Generator_RowDeletedName="SlikeRowDeleted" msprop:Generator_RowClassName="SlikeRow" msprop:Generator_UserTableName="Slike" msprop:Generator_RowEvArgName="SlikeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="id_autora" msprop:Generator_ColumnVarNameInTable="columnid_autora" msprop:Generator_ColumnPropNameInRow="id_autora" msprop:Generator_ColumnPropNameInTable="id_autoraColumn" msprop:Generator_UserColumnName="id_autora" type="xs:int" minOccurs="0" />
+              <xs:element name="id_kategorije" msprop:Generator_ColumnVarNameInTable="columnid_kategorije" msprop:Generator_ColumnPropNameInRow="id_kategorije" msprop:Generator_ColumnPropNameInTable="id_kategorijeColumn" msprop:Generator_UserColumnName="id_kategorije" type="xs:int" minOccurs="0" />
+              <xs:element name="naziv" msprop:Generator_ColumnVarNameInTable="columnnaziv" msprop:Generator_ColumnPropNameInRow="naziv" msprop:Generator_ColumnPropNameInTable="nazivColumn" msprop:Generator_UserColumnName="naziv" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="putanjaDoSlike" msprop:Generator_ColumnVarNameInTable="columnputanjaDoSlike" msprop:Generator_ColumnPropNameInRow="putanjaDoSlike" msprop:Generator_ColumnPropNameInTable="putanjaDoSlikeColumn" msprop:Generator_UserColumnName="putanjaDoSlike" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Autori" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="Kategorije_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Kategorije" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="Ocene_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Ocene" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ProjekatTvp" Class="NekaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-GFMSV88\SQL2012;Initial Catalog=ProjekatTvp;Integrated Security=True" SettingsObjectName="ProjektniZadatakTVP.Properties.Settings" SettingsPropertyName="ProjekatTvpConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Autori" Member="Autoris">
+    <Type Name="Autori">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ime" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="prezime" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="datum_rodjenja" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Kategorije" Member="Kategorijes">
+    <Type Name="Kategorije">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="naziv_kategorije" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ocene" Member="Ocenes">
+    <Type Name="Ocene">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_slike" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ocena" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="datum" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Slike" Member="Slikes">
+    <Type Name="Slike">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="id_autora" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id_kategorije" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="naziv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="putanjaDoSlike" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
